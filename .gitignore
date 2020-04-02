@@ -1,0 +1,13 @@
+.idea
+*.iml
+.project
+.settings
+.classpath
+/target
+*/target/*
+target
+bin
+.idea/*
+/bin
+*mysqlGeneratorConfig.xml
+log.txt
