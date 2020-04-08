@@ -1,6 +1,5 @@
 package com.learning.disabuse;
 
-import com.sun.java.swing.plaf.windows.WindowsTextAreaUI;
 
 /**
  * @author glong
