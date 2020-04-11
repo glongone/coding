@@ -25,7 +25,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     private static final Map<String, String>          replyMap                               = new ConcurrentHashMap<String, String>();
 
     static {
-        replyMap.put("博客", "https://ytao.top");
+        replyMap.put("博客", "https://glongone.com:8090");
         replyMap.put("公众号", "ytao公众号");
         replyMap.put("在吗", "在");
         replyMap.put("吃饭了吗", "吃了");
