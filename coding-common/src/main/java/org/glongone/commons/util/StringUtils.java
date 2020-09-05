@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 /**
  * @author: glongone
- * @date: 2020/9/1 4:06 下午
+ * @date: 2020/9/1 4:06 afternoon
  * @desc: Tools for processing strings
  */
 public class StringUtils extends org.apache.commons.lang.StringUtils {
