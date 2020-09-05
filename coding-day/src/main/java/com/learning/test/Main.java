@@ -18,8 +18,13 @@ public class Main {
 //        a = main.a;
 //        System.out.println(a);
 
-        String car = "浙123123";
+        long startTime=System.currentTimeMillis();
+        String car = "浙123123 ";
         System.out.println(isChineseChar(car.charAt(0)));
+        long endTime=System.currentTimeMillis(); //获取结束时间
+        System.out.println("程序运行时间： "+(endTime-startTime)+"ms");
+
+        //System.out.println(car.length() == car.replaceAll(" ", "").length());
     }
 
     /**
