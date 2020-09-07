@@ -1,4 +1,4 @@
-package com.learning.leetcode;
+package com.learning.leetcode.day01;
 
 /**
  * @author: glongone
