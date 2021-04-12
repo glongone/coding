@@ -1,9 +1,6 @@
 package com.learning.leetcode.day03;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author: glongone
@@ -36,10 +33,25 @@ public class Solution {
         }
     }
 
+
+    public int lengthOfLongestSubstring2(String s) {
+        int n = s.length(), ans = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        for (int start = 0, end = 0; end < n; end++) {
+            char alp = s.charAt(end);
+            if (map.containsKey(alp)) {
+                start = Math.max(map.get(alp), start);
+            }
+            ans = Math.max(end - start + 1, ans);
+            map.put(alp, end + 1);
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
-//        Solution solution = new Solution();
-//        solution.lengthOfLongestSubstring("abcabcbb");
-//        System.out.println(solution.sum);
+        Solution solution = new Solution();
+        solution.sum = solution.lengthOfLongestSubstring2("abcabcbb");
+        System.out.println(solution.sum);
 //        String s = "abcabcbb";
 //        s = s.replaceAll(String.valueOf(s.charAt(0)), "");
 //        System.out.println(s);

@@ -35,4 +35,26 @@ public class Solution {
         return result;
     }
 
+
+    public static int[] twoSum2(int[] nums, int target) {
+        int[] res = new int[2];
+        HashMap<Integer, Integer> map = new HashMap();
+        for(int n=0; n<nums.length; n++) {
+            map.put(nums[n],n);
+        }
+        for (int n=0; n<nums.length; n++) {
+            Integer a = map.get(target - nums[n]);
+            if(null != a) {
+                res[0] = n;
+                res[1] = a;
+            }
+        }
+        return res;
+    }
+
+
+    public static void main(String[] args) {
+        int[] test = new int[]{3,3};
+        twoSum2(test, 6);
+    }
 }
