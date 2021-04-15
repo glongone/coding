@@ -1,6 +1,6 @@
 package com.learn.coding.syn.test2;
 
-import com.test.SynchronizedClassStatic;
+import com.learn.coding.syn.test.SynchronizedClassStatic;
 
 /**
  * @author glong
