@@ -1,0 +1,10 @@
+09:50:34.818 [main] INFO  org.slf4j.Logger - vvv
+09:51:08.824 [main] INFO  org.slf4j.Logger - vvv
+09:51:46.948 [main] INFO  org.slf4j.Logger - test
+09:51:46.948 [main] INFO  org.slf4j.Logger - 789050980
+09:52:23.028 [main] INFO  org.slf4j.Logger - vvv
+09:52:52.487 [main] INFO  org.slf4j.Logger - test
+09:52:52.488 [main] INFO  org.slf4j.Logger - 2000000000
+09:53:15.567 [main] INFO  org.slf4j.Logger - vvv
+09:53:43.571 [main] INFO  org.slf4j.Logger - test
+09:53:43.571 [main] INFO  org.slf4j.Logger - 2000000000
