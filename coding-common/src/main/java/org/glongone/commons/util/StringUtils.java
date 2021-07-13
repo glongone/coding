@@ -71,4 +71,13 @@ public class StringUtils extends org.apache.commons.lang.StringUtils {
         return str.length() == str.replaceAll(" ", "").length();
     }
 
+	/**
+	 *
+	 *
+	 * @param obj Object
+	 * @return null or obj.toString();
+	 */
+	public static String valueOf(Object obj) {
+		return (obj == null) ? null : obj.toString();
+	}
 }
