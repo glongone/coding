@@ -72,7 +72,7 @@ public class StringUtils extends org.apache.commons.lang.StringUtils {
     }
 
 	/**
-	 *
+	 * The message of object.toString(); return null rather than "null"
 	 *
 	 * @param obj Object
 	 * @return null or obj.toString();
